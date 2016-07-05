@@ -1,0 +1,113 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#SearchInput{
+  width: 200px;
+}
+.navbar-brand{
+  padding: 13px 15px;
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel .item{
+     margin-top:50px;
+     height: 400px;
+
+   }
+
+   #slide1{
+     background: url('../../images/Charminar.jpg') top center no-repeat;
+     background-size: contain;
+   }
+   #slide2{
+     background: url('../../images/taj.jpg') top center no-repeat;
+     background-size: contain;
+
+   }
+     #slide3{
+       background: url('../../images/paris.jpg') top center no-repeat;
+       background-size: contain;
+
+     }
+     .row{
+       padding-top: 20px;
+
+     }
+
+
+ /*#slide1  {
+     background: url('./images/Charminar.jpg') top left no-repeat;
+     background-size: contain;
+   }*/
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+/*
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+/*
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+
+
+.navbar-brand>img{
+  widht:25px;
+  height: 25px;
+  padding-right: 30px;
+}
+
+img{
+  width: 230px;
+  height: 200px;
+  align-self: auto;
+}
+footer{
+  background-color: orange;
+
+}
